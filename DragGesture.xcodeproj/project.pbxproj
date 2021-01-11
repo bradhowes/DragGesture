@@ -13,6 +13,8 @@
 		BD88242A25AC665600D91D05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88241525AC665300D91D05 /* ContentView.swift */; };
 		BD88242B25AC665600D91D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD88241625AC665600D91D05 /* Assets.xcassets */; };
 		BD88242C25AC665600D91D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD88241625AC665600D91D05 /* Assets.xcassets */; };
+		BD88243825AC666700D91D05 /* KnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88243725AC666700D91D05 /* KnobView.swift */; };
+		BD88243925AC666700D91D05 /* KnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88243725AC666700D91D05 /* KnobView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BD88242325AC665600D91D05 /* DragGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD88242525AC665600D91D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD88242625AC665600D91D05 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BD88243725AC666700D91D05 /* KnobView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnobView.swift; sourceTree = "<group>"; };
+		BD88243C25AC6C6000D91D05 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 		BD88240E25AC665300D91D05 = {
 			isa = PBXGroup;
 			children = (
+				BD88243C25AC6C6000D91D05 /* README.md */,
 				BD88241325AC665300D91D05 /* Shared */,
 				BD88241D25AC665600D91D05 /* iOS */,
 				BD88242425AC665600D91D05 /* macOS */,
@@ -59,6 +64,7 @@
 			children = (
 				BD88241425AC665300D91D05 /* DragGestureApp.swift */,
 				BD88241525AC665300D91D05 /* ContentView.swift */,
+				BD88243725AC666700D91D05 /* KnobView.swift */,
 				BD88241625AC665600D91D05 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD88242925AC665600D91D05 /* ContentView.swift in Sources */,
+				BD88243825AC666700D91D05 /* KnobView.swift in Sources */,
 				BD88242725AC665600D91D05 /* DragGestureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD88242A25AC665600D91D05 /* ContentView.swift in Sources */,
+				BD88243925AC666700D91D05 /* KnobView.swift in Sources */,
 				BD88242825AC665600D91D05 /* DragGestureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
